@@ -539,7 +539,7 @@ function TeamSelector() {
 			name = user.team_names[ team ];
 
 			if( user.teams.length == 1 )
-				name = "Team " + team + ": " + name
+				name = "Team " + team
 		}
 
 		replaceChildNodes( $("teamname"), " " + name );
